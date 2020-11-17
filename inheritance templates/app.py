@@ -10,7 +10,7 @@ def index():
     return render_template('Index.html',name=name)
 
 @app.route('/classmates')
-def client():
+def classmates():
     listname=['Jan','Jiri']
     return render_template('classmates.html',listname=listname)
 
